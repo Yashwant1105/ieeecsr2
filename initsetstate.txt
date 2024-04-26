@@ -1,0 +1,9 @@
+//Difference between initState() and setState():
+
+initState():
+It is used for initializing state variables and performing setup tasks that need to be done only once.
+For instance, if you want to initialize the background of a page as a certain color suppose white, we use initState or to initialize the count in a counter as 0.
+
+setState():
+It is used for calling whenever the state of the widget is to be updated
+So like the color of the page will change to something random everytime the user clicks on the button or the count increases as the user gives a prompt.
